@@ -35,17 +35,19 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(10, 8);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(98, 30);
+            label1.Size = new Size(85, 25);
             label1.TabIndex = 0;
-            label1.Text = "Version 2";
+            label1.Text = "Version 3";
             // 
             // Btn_Click_me
             // 
-            Btn_Click_me.Location = new Point(12, 42);
+            Btn_Click_me.Location = new Point(10, 35);
+            Btn_Click_me.Margin = new Padding(2, 2, 2, 2);
             Btn_Click_me.Name = "Btn_Click_me";
-            Btn_Click_me.Size = new Size(131, 40);
+            Btn_Click_me.Size = new Size(109, 33);
             Btn_Click_me.TabIndex = 1;
             Btn_Click_me.Text = "Click Me!";
             Btn_Click_me.UseVisualStyleBackColor = true;
@@ -53,11 +55,12 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(667, 375);
             Controls.Add(Btn_Click_me);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
